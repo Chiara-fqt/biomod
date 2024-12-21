@@ -1,0 +1,12 @@
+
+import csv
+def csvdemortjeveuxcreverjenaimarredececodedemerde():
+    fichier = open("c:/Users/Fauquet Family/Desktop/data_medium.csv","r")
+    table = list(csv.reader(fichier))
+    for elt in table:
+        for truc in elt:
+            print(truc.split(";"))
+        
+            
+
+print(csvdemortjeveuxcreverjenaimarredececodedemerde())
